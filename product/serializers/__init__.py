@@ -1,0 +1,4 @@
+from product.serializers.category_serializer import CategorySerializer
+from product.serializers.product_serializer import ProductSerializer
+
+__all__ = ["CategorySerializer", "ProductSerializer"]

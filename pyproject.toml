@@ -1,0 +1,15 @@
+[project]
+name = "bookstore"
+version = "0.1.0"
+description = "Projeto Bookstore do curso Profissão: Desenvolvedor Full Stack Python (EBAC)"
+authors = [{ name = "Pedro Badaró Ferreira", email = "badaro1988@gmail.com" }]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = ["django (>=6.1.3,<7.0.0)", "djangorestframework (>=3.18.3,<4.0.0)"]
+
+[tool.poetry]
+package-mode = false
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
